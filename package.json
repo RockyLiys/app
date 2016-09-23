@@ -4,7 +4,9 @@
   "description": "h5+webpack+node+grunt",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "webpack-dev-server --devtool eval --inline --progress --colors --port 9999 --host 0.0.0.0",
+    "build": "webpack  --inline --progress --colors "
   },
   "repository": {
     "type": "git",

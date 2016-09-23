@@ -1,6 +1,7 @@
 node_modules/**
 dist/build/**
 dist/bundle.js
+dist/bundle.js.map
 *.log
 *.pyc
 .idea/*.pyc

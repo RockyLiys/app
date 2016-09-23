@@ -1,14 +1,22 @@
+var path = require('path')
+
+
 module.exports = {
+	context: __dirname + '/dist/',
     entry: {
-    	"index": "js/entry.js",
+    	entry: "js/entry.js",
     },
     output: {
-        path: __dirname,
-        filename: "dist/bundle.js"
+        path: path.resolve(__dirname, 'dist'),
+        filename: "[name].bundle.js",
+        publicPath: 'static/'
+    },
+    resolve: {
+    	root: [path.resolve(__dirname, './dist')]
     },
     module: {
         loaders: [
-            //{ test: /\.css$/, loader: "style!css" }
+            { test: /\.css$/, loader: "style!css" }
         ]
     }
 };
