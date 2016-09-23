@@ -488,11 +488,13 @@ module.exports = function (grunt) {
 
   grunt.registerTask('dist-css', ['sass-compile', 'postcss:core', 'autoprefixer:core', 'usebanner', 'csscomb:dist', 'cssmin:core', 'cssmin:docs']);
 
-  // Full distribution task.
+  // Full distribution task.  'clean:dist', 
   grunt.registerTask('dist', ['clean:dist', 'dist-css', 'dist-js']);
 
-  // Default task.
+  // Default task.  , 
   grunt.registerTask('default', ['clean:dist', 'test']);
+  
+  // grunt.loadNpmTasks('grunt-embed-fonts');
 
   // Version numbering task.
   // grunt change-version-number --oldver=A.B.C --newver=X.Y.Z

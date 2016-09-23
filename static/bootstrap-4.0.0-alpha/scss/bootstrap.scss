@@ -47,3 +47,10 @@
 @import "utilities";
 @import "utilities-spacing";
 @import "utilities-responsive";
+
+// fonts
+$bootstrap-sass-asset-helper: false;
+$icon-font-name: 'glyphicons-halflings-regular';
+$icon-font-svg-id: 'glyphicons_halflings-regular';
+$icon-font-path: '../fonts/';
+@import "glyphicons";
