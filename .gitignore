@@ -2,4 +2,12 @@ node_modules/**
 dist/build/**
 dist/bundle.js
 *.log
-
+*.pyc
+.idea/*.pyc
+.idea/*.pyc
+.idea/*.pyc
+.idea/*.pyc
+.idea/*.pyc
+.idea/*.pyc
+.idea/*.pyc
+.idea/
