@@ -1,0 +1,19 @@
+{
+  "name": "app-base",
+  "version": "1.0.0",
+  "description": "h5+webpack+node+grunt",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockyLiys/app.git"
+  },
+  "author": "rocky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RockyLiys/app/issues"
+  },
+  "homepage": "https://github.com/RockyLiys/app#readme"
+}
